@@ -1,6 +1,6 @@
 {
     "$schema": "https://www.sudobot.org/schemas/extension.json",
-    "name": "example",
+    "name": "ENAME",
     "id": "com.example.extesion",
     "main": "./src/index.js",
     "commands": "./src/commands",
