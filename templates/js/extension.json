@@ -1,4 +1,5 @@
 {
+    "$schema": "https://www.sudobot.org/schemas/extension.json",
     "name": "example",
     "id": "com.example.extesion",
     "main": "./src/index.js",
