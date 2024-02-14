@@ -1,7 +1,10 @@
 {
+    "name": "example",
+    "id": "com.example.extesion",
     "main": "./src/index.js",
     "commands": "./src/commands",
     "events": "./src/events",
+    "services": "./src/services",
     "language": "javascript",
     "main_directory": "./src",
     "build_command": null
