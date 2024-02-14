@@ -1,0 +1,8 @@
+{
+    "main": "./src/index.js",
+    "commands": "./src/commands",
+    "events": "./src/events",
+    "language": "javascript",
+    "main_directory": "./src",
+    "build_command": null
+}

@@ -1,0 +1,11 @@
+{
+    "name": "ENAME",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "dependencies": {
+        "sudobot": "file:../.."
+    },
+    "_moduleAliases": {
+        "@sudobot": "node_modules/sudobot/build"
+    }
+}
