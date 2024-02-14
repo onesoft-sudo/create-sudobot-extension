@@ -1,9 +1,11 @@
 {
     "name": "create-sudobot-extension",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Creates a new extension project for SudoBot.",
     "main": "bin/index.js",
-    "bin": "bin/index.js",
+    "bin": {
+        "create-sudobot-extension": "bin/index.js"
+    },
     "keywords": [
         "sudobot",
         "discord-bot",
