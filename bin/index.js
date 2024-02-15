@@ -81,9 +81,11 @@ async function createJavaScriptProject() {
     const packageJson = path.resolve(targetDirectory, 'package.json');
     const indexJs = path.resolve(targetDirectory, 'src/index.js');
     const extensionJson = path.resolve(targetDirectory, 'extension.json');
+    const shortName = name ?? path.basename(targetDirectory);
 
-    replace(extensionJson, 'ENAME', name ?? path.basename(targetDirectory));
-    replace(packageJson, 'ENAME', name ?? path.basename(targetDirectory));
+    replace(extensionJson, 'ENAME', shortName);
+    replace(extensionJson, 'EID', shortName.toLowerCase());
+    replace(packageJson, 'ENAME', shortName);
 
     let className = (name ?? path.basename(targetDirectory)).replace(/\s+/, '');
     className = className[0].toUpperCase() + className.substring(1);
@@ -99,9 +101,11 @@ async function createTypeScriptProject() {
     const packageJson = path.resolve(targetDirectory, 'package.json');
     const indexTs = path.resolve(targetDirectory, 'src/index.ts');
     const extensionJson = path.resolve(targetDirectory, 'extension.json');
+    const shortName = name ?? path.basename(targetDirectory);
 
-    replace(extensionJson, 'ENAME', name ?? path.basename(targetDirectory));
-    replace(packageJson, 'ENAME', name ?? path.basename(targetDirectory));
+    replace(extensionJson, 'ENAME', shortName);
+    replace(extensionJson, 'EID', shortName.toLowerCase());
+    replace(packageJson, 'ENAME', shortName);
 
     let className = (name ?? path.basename(targetDirectory)).replace(/\s+/, '');
     className = className[0].toUpperCase() + className.substring(1);

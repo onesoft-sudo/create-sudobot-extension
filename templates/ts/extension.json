@@ -1,7 +1,7 @@
 {
     "$schema": "https://www.sudobot.org/schemas/extension.json",
     "name": "ENAME",
-    "id": "com.example.extesion",
+    "id": "com.example.EID",
     "main": "./build/index.js",
     "commands": "./build/commands",
     "events": "./build/events",
