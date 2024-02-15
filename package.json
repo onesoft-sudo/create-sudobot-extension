@@ -1,6 +1,6 @@
 {
     "name": "create-sudobot-extension",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "Creates a new extension project for SudoBot.",
     "main": "bin/index.js",
     "bin": {
