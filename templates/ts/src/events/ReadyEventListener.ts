@@ -1,4 +1,4 @@
-import { EventListener } from "@sudobot/core/EventListener";
+import EventListener from "@sudobot/core/EventListener";
 import { Events } from "@sudobot/types/ClientEvents";
 
 export default class ReadyEventListener extends EventListener<Events.Ready> {
